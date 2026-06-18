@@ -1,0 +1,279 @@
+
+> fit4110_lab03_postman_mock_testing@0.3.0 mock:iot
+> npm run mock:analytics
+
+
+> fit4110_lab03_postman_mock_testing@0.3.0 mock:analytics
+> prism mock contracts/analytics.openapi.yaml -p 4010 --host 0.0.0.0
+
+[7:46:25 PM] › [CLI] …  awaiting  Starting Prism…
+[7:46:25 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/health
+[7:46:25 PM] › [CLI] ℹ  info      POST       http://0.0.0.0:4010/ingest
+[7:46:25 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/analytics/summary?fromDate=1935-06-14&toDate=1952-12-07
+[7:46:25 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/dashboard
+[7:46:25 PM] › [CLI] ▶  start     Prism is listening on http://0.0.0.0:4010
+[7:46:29 PM] › [HTTP SERVER] get /health ℹ  info      Request received
+[7:46:29 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: application/json, text/plain, */*
+[7:46:29 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:46:29 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for application/json, text/plain, */*
+[7:46:29 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:46:29 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[7:46:30 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:30 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:30 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:30 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:31 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:31 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:31 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:31 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:31 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:31 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:31 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:31 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:32 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:32 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:32 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:32 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:32 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:32 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:32 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:32 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:33 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:33 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:33 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:33 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:33 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:33 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:33 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:33 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:34 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:34 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:34 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:34 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:34 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:34 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:34 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:34 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:35 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:35 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:35 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:35 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:35 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:35 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:35 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:35 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:36 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:36 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:36 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:36 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:36 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:36 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:36 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:36 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:37 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:37 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:37 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:37 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:37 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:37 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:37 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:37 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:38 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:38 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:38 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:38 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:38 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:38 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:38 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:38 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:39 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:39 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:39 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:39 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:39 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:39 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:39 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:39 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:40 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:40 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:40 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:40 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:48:15 PM] › [HTTP SERVER] get /health ℹ  info      Request received
+[7:48:15 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:15 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:15 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:15 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:48:15 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[7:48:16 PM] › [HTTP SERVER] post /ingest ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 202
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "202"
+[7:48:16 PM] › [HTTP SERVER] post /ingest ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 202
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "202"
+[7:48:16 PM] › [HTTP SERVER] get /analytics/summary ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[7:48:16 PM] › [HTTP SERVER] get /dashboard ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[7:48:16 PM] › [HTTP SERVER] post /ingest ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Invalid security scheme used
+[7:48:16 PM] › [HTTP SERVER] post /ingest ✖  error     Request terminated with error: https://stoplight.io/prism/errors#UNAUTHORIZED: Invalid security scheme used
+[7:48:16 PM] › [HTTP SERVER] get /analytics/summary ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[7:48:16 PM] › [HTTP SERVER] post /ingest ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'eventId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'gateId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'decision'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'metric'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'value'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'detectionId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'detectionType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'confidence'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'cameraId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'metric'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'value'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'businessEventId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'eventType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'severity'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'status'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'metric'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'value'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'deviceId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must match exactly one schema in oneOf
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   The response 400 has a schema. I'll keep going with this one
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'eventId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'gateId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'decision'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'metric'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'value'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.sourceType Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'detectionId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'detectionType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'confidence'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'cameraId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'metric'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'value'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.sourceType Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'businessEventId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'eventType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'severity'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'status'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'metric'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'value'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.sourceType Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'deviceId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must match exactly one schema in oneOf
+[7:48:16 PM] › [HTTP SERVER] get /analytics/summary ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request query must have required property 'todate'
+[7:48:16 PM] › [HTTP SERVER] get /analytics/summary ✖  error     Request terminated with error: https://stoplight.io/prism/errors#UNPROCESSABLE_ENTITY: Invalid request
+[7:48:16 PM] › [HTTP SERVER] get /analytics/summary ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request query parameter sourcetype must be equal to one of the allowed values: access, camera, core-business, iot
+[7:48:16 PM] › [HTTP SERVER] get /analytics/summary ✖  error     Request terminated with error: https://stoplight.io/prism/errors#UNPROCESSABLE_ENTITY: Invalid request
+[7:48:16 PM] › [HTTP SERVER] post /ingest ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 202
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "202"
+[7:48:16 PM] › [HTTP SERVER] post /ingest ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'eventId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'gateId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'decision'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'detectionId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'detectionType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'confidence'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'cameraId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body property confidence must be <= 1
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'businessEventId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'eventType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'severity'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'status'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'detectionId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'detectionType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'confidence'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'deviceId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'metric'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'value'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'detectionId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'detectionType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'confidence'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must NOT have additional properties; found 'cameraId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must match exactly one schema in oneOf
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   The response 400 has a schema. I'll keep going with this one
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'eventId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'gateId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'decision'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'detectionId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'detectionType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'confidence'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'cameraId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.sourceType Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.confidence Request body property confidence must be <= 1
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'businessEventId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'eventType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'severity'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'status'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'detectionId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'detectionType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'confidence'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.sourceType Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'deviceId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'metric'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'value'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'detectionId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'detectionType'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'confidence'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must NOT have additional properties; found 'cameraId'
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.sourceType Request body property sourceType must be equal to constant
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must match exactly one schema in oneOf
+[7:48:16 PM] › [HTTP SERVER] get /analytics/summary ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[7:48:16 PM] › [HTTP SERVER] get /dashboard ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"

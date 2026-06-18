@@ -1,0 +1,109 @@
+
+> fit4110_lab03_postman_mock_testing@0.3.0 mock:vision
+> prism mock contracts/ai-vision.openapi.yaml -p 4011 --host 0.0.0.0
+
+[7:46:25 PM] › [CLI] …  awaiting  Starting Prism…
+[7:46:25 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4011/health
+[7:46:25 PM] › [CLI] ℹ  info      POST       http://0.0.0.0:4011/detect
+[7:46:25 PM] › [CLI] ▶  start     Prism is listening on http://0.0.0.0:4011
+[7:46:29 PM] › [HTTP SERVER] get /health ℹ  info      Request received
+[7:46:29 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: application/json, text/plain, */*
+[7:46:29 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:46:29 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for application/json, text/plain, */*
+[7:46:29 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:46:29 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[7:46:30 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:30 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:30 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:30 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:31 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:31 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:31 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:31 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:31 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:31 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:31 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:31 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:32 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:32 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:32 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:32 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:32 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:32 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:32 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:32 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:33 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:33 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:33 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:33 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:33 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:33 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:33 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:33 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:34 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:34 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:34 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:34 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:34 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:34 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:34 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:34 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:35 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:35 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:35 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:35 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:35 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:35 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:35 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:35 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:36 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:36 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:36 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:36 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:36 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:36 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:36 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:36 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:37 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:37 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:37 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:37 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:37 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:37 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:37 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:37 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:38 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:38 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:38 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:38 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:38 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:38 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:38 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:38 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:39 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:39 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:39 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:39 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:39 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:39 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:39 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:39 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:40 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:40 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:46:40 PM] › [HTTP SERVER] head /health ℹ  info      Request received
+[7:46:40 PM] › [HTTP SERVER] head /health ✖  error     Request terminated with error: https://stoplight.io/prism/errors#NO_METHOD_MATCHED_ERROR: Route resolved, but no method matched
+[7:48:16 PM] › [HTTP SERVER] post /detect ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for */*
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[7:48:16 PM] › [HTTP SERVER] post /detect ℹ  info      Request received
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[7:48:16 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Request body must have required property 'camera_id'
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   The response 400 has an example. I'll keep going with this one
+[7:48:16 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[7:48:16 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[7:48:16 PM] ›     [VALIDATOR] ✖  error     Violation: request.body Request body must have required property 'camera_id'
