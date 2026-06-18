@@ -1,7 +1,8 @@
 {
-  "device_id": "ESP32-LAB-A01",
-  "metric": "temperature",
-  "value": 80,
-  "unit": "celsius",
-  "timestamp": "2026-05-13T08:30:00+07:00"
+  "sourceType": "camera",
+  "detectionId": "cc6a73bd-f42a-49ec-a0fb-4eb13b1dd560",
+  "detectionType": "PERSON",
+  "confidence": 1,
+  "cameraId": "CAM-02",
+  "occurredAt": "2026-05-20T08:33:00Z"
 }

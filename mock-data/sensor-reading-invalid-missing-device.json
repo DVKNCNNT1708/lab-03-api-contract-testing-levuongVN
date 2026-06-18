@@ -1,6 +1,7 @@
 {
+  "sourceType": "iot",
   "metric": "temperature",
-  "value": 31.5,
+  "value": 29.4,
   "unit": "celsius",
-  "timestamp": "2026-05-13T08:30:00+07:00"
+  "occurredAt": "2026-05-20T08:30:00Z"
 }

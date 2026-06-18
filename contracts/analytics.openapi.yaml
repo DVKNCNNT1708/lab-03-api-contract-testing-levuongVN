@@ -513,4 +513,4 @@ components:
         detail:
           type:
             - string
-            - 'null' 
+            - 'null'
